@@ -1,0 +1,459 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffaf4;
+    color: #2f656d;
+}
+
+/* TOP SHIPPING BAR */
+.top {
+    background: rgb(221, 87, 9);
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 22px 7%;
+    background: #0a0707;
+    box-shadow: 0 2px 10px rgba(70, 35, 15, 0.08);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #c47a28;
+}
+
+nav input {
+    width: 220px;
+    padding: 12px 16px;
+    border: 1px solid #e5d4c2;
+    border-radius: 25px;
+    outline: none;
+    background: #fffaf4;
+    font-size: 14px;
+}
+s
+nav input:focus {
+    border-color: #a66b36;
+}
+nav h1{
+    color: #e5d4c2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* HOME SECTION */
+.k {
+    min-height: 100vh;
+    background-image: url(../Users/kirub/Pictures/illustration-burning-diya-with-assorted-sweet-snack-happy-diwali-holiday-background-light-festival-india_1368503-455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.k-text {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.k-text h1 {
+    color: #120804;
+    font-size: 43px;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.k-text p {
+    max-width: 680px;
+    margin: 0 auto 25px;
+    color: #0b0603;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.k-text button {
+    display: block;
+    margin: 0 auto 30px;
+    background: #8b4b27;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.k-text button:hover {
+    background: #63351f;
+    transform: translateY(-2px);
+}
+
+.k-text img {
+    display: block;
+    width: 360px;
+    max-width: 100%;
+    height: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(75, 40, 20, 0.15);
+}
+
+/* BEST SELLING SWEETS */
+.products {
+    padding: 65px 7%;
+    text-align: center;
+
+    /* Diwali Image Background */
+    background-image:url(../Users/kirub/Pictures/0a75c6c1-8d9a-4ee7-be2a-a465ef5a9c01.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.products h2 {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px #000000;
+    padding: 210px; 
+    margin: 10px;
+}
+
+.products-list {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product {
+    width: 270px;
+    background: rgba(255, 250, 244, 0.94);
+    padding: 18px;
+    border: 1px solid #f0e4d8;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(70, 35, 15, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(70, 35, 15, 0.3);
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #63351f;
+    font-size: 19px;
+    margin: 18px 0 10px;
+}
+
+.product p {
+    color: #b56b27;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* CUSTOMER REVIEWS */
+.reviews {
+    padding: 60px 7%;
+    background: #130b03;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 29px;
+    color: #e7ab08;
+    margin-bottom: 30px;
+}
+
+.reviews-list {
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.review{
+    background-color: wheat;
+    padding: 15px;
+    width: 200px;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    box-shadow: #034836;
+}
+.stars{
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+.review h3{
+    color: #f90d0d;
+    margin: 15px 0 8px;
+}
+.review span{
+    color: #000000;
+    font-size: medium;
+
+}
+
+/* BENEFITS SECTION */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 30px 7%;
+    background: #fff;
+    border-bottom: 1px solid #eee0d1;
+}
+
+.benefits p {
+    color: #63351f;
+    font-size: 14px;
+    font-weight: 600;
+}
+.about{
+    background-color:#000000;
+}
+.about h2{
+    padding: 10px;
+    
+}
+.about p{
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 35px;
+    background: #3c2418;
+    color: #f8eee5;
+    padding: 50px 7%;
+}
+
+footer > div {
+    flex: 1;
+    min-width: 180px;
+}
+
+footer h2 {
+    color: #f2c58d;
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+
+footer h3 {
+    color: #f2c58d;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #f8eee5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #f2c58d;
+}
+
+footer input {
+    width: 100%;
+    max-width: 240px;
+    padding: 12px;
+    border: 1px solid #8a6a55;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+footer button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background: #c18443;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+footer button:hover {
+    background: #a5662e;
+}
+
+/* COPYRIGHT */
+.copyright {
+    padding: 18px 10px;
+    text-align: center;
+    background: #28180f;
+    color: #ead7c5;
+    font-size: 13px;
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .k-text h1 {
+        font-size: 35px;
+    }
+
+    .benefits {
+        justify-content: center;
+    }
+
+    footer {
+        gap: 30px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .top {
+        font-size: 12px;
+    }
+
+    nav {
+        padding: 20px 5%;
+    }
+
+    .menu {
+        gap: 14px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    nav input {
+        width: 100%;
+    }
+
+    .k {
+        padding: 45px 5%;
+    }
+
+    .k-text h1 {
+        font-size: 28px;
+    }
+
+    .k-text p {
+        font-size: 14px;
+    }
+
+    .k-text img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .products {
+        padding: 45px 5%;
+        background-position: center;
+    }
+
+    .products h2 {
+        font-size: 24px;
+    }
+
+    .products-list {
+        gap: 22px;
+    }
+
+    .product {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .reviews {
+        padding: 45px 5%;
+    }
+
+    .reviews h2 {
+        font-size: 24px;
+    }
+
+    .benefits {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 40px 7%;
+    }
+
+    footer > div {
+        width: 100%;
+    }
+}
