@@ -75,7 +75,7 @@ nav h1{
 /* HOME SECTION */
 .k {
     min-height: 100vh;
-    background-image: url("illustration-burning-diya-with-assorted-sweet-snack-happy-diwali-holiday-background-light-festival-india_1368503-455.jpg");
+    background-image: url("./illustration-burning-diya-with-assorted-sweet-snack-happy-diwali-holiday-background-light-festival-india_1368503-455.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -142,7 +142,7 @@ nav h1{
     text-align: center;
 
     /* Diwali Image Background */
-    background-image:url("0a75c6c1-8d9a-4ee7-be2a-a465ef5a9c01.jpg");
+    background-image:url("./0a75c6c1-8d9a-4ee7-be2a-a465ef5a9c01.jpg");
 
     background-size: cover;
     background-position: center;
